@@ -1,0 +1,52 @@
+.article {
+  margin: 10px;
+}
+.article h1 {
+  width: 100%;
+  border-bottom: 1px #212121 solid;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.article-container .time-uploaded {
+  font-size: 14px;
+  background: #212121;
+  color: #fffbf5;
+  font-weight: 500;
+  padding: 3px 10px;
+}
+.article table {
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: #b3b3b320;
+}
+.article td {
+  padding: 5px;
+}
+.article .table {
+  display: flex;
+  justify-content: center;
+}
+.patch-detail {
+  margin: 50px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 0.3em rgb(0,0,0,0.2);
+  padding: 20px;
+  width: 420px;
+}
+.patch-detail div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.patch-detail .download-button {
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px;
+}
+.download-button .fa-solid {
+  margin-right: 10px;
+  font-size: 20px;
+}

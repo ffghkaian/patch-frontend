@@ -1,0 +1,121 @@
+header {
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  z-index: 3;
+}
+header img {
+  width: 120px;
+}
+.search-bar, .header {
+  display: flex;
+  align-items: center;
+}
+.fa-angle-left {
+  margin: 5px;
+  font-size: 20px;
+}
+.search-bar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.search-bar .fa-solid {
+  padding: 7px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.side-bar {
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+  background: #fffbf5;
+  z-index: 2;
+}
+.side-bar-label {
+  background: #b3b3b350;
+  margin: 15px;
+  margin-bottom: 0;
+  border-radius: 8px;
+  padding: 5px 15px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-bar-list {
+  width: fit-content;
+}
+.side-bar-list .fa-xmark {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 26px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  background: #b3b3b350;
+}
+.side-bar-label .fa-angle-left {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.side-bar-menu {
+  margin: 5px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.side-bar-menu a {
+  margin: 5px 0;
+  text-decoration: none;
+  color: #212121;
+}
+.rotate-min-90deg {
+  transform: rotate(-90deg);
+  transition: .5s;
+}
+.rotate-0deg {
+  transform: rotate(0deg);
+  transition: .5s;
+}
+
+@media only screen and (max-width: 520px) {
+  .hide {
+    transition: .75s;
+    left: -100%;
+  }
+  .show {
+    transition: .75s;
+    left: 0;
+  }
+  .side-bar {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    top: 0;
+    position: fixed;
+  }
+  .side-bar-list {
+    width: 100%;
+    position: relative;
+    padding-top: 65px;
+  }
+}
+@media only screen and (min-width: 520px) {
+  .hide {
+    top: -100%;
+    transition: .75s;
+  }
+  .show {
+    top: 60px;
+    transition: .75s;
+  }
+  .side-bar {
+    position: absolute;
+  }
+  .side-bar-list .fa-xmark {
+    display: none;
+  }
+}

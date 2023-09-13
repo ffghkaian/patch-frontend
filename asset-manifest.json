@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/patch-frontend/static/css/main.4eb0f613.css",
-    "main.js": "/patch-frontend/static/js/main.2bb7e6f7.js",
+    "main.js": "/patch-frontend/static/js/main.fb9f018b.js",
     "static/css/560.c97b4553.chunk.css": "/patch-frontend/static/css/560.c97b4553.chunk.css",
-    "static/js/560.800abafe.chunk.js": "/patch-frontend/static/js/560.800abafe.chunk.js",
+    "static/js/560.81a7329b.chunk.js": "/patch-frontend/static/js/560.81a7329b.chunk.js",
     "static/js/180.468671b1.chunk.js": "/patch-frontend/static/js/180.468671b1.chunk.js",
     "index.html": "/patch-frontend/index.html",
     "main.4eb0f613.css.map": "/patch-frontend/static/css/main.4eb0f613.css.map",
-    "main.2bb7e6f7.js.map": "/patch-frontend/static/js/main.2bb7e6f7.js.map",
+    "main.fb9f018b.js.map": "/patch-frontend/static/js/main.fb9f018b.js.map",
     "560.c97b4553.chunk.css.map": "/patch-frontend/static/css/560.c97b4553.chunk.css.map",
-    "560.800abafe.chunk.js.map": "/patch-frontend/static/js/560.800abafe.chunk.js.map",
+    "560.81a7329b.chunk.js.map": "/patch-frontend/static/js/560.81a7329b.chunk.js.map",
     "180.468671b1.chunk.js.map": "/patch-frontend/static/js/180.468671b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eb0f613.css",
-    "static/js/main.2bb7e6f7.js"
+    "static/js/main.fb9f018b.js"
   ]
 }
